@@ -1,2 +1,2 @@
 # dapp-todoapp
-No description
+NextJS + Solidity + EthersJS
