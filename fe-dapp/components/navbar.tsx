@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import Image from 'next/image'
 import React from 'react'
@@ -6,7 +6,6 @@ import { useAccount, useConnect, useDisconnect, useSwitchChain } from 'wagmi';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 import { ChevronDown } from 'lucide-react';
 import { formatAddress } from '@/lib/utils';
-import { Button } from './ui/button';
 
 export default function Navbar() {
     const { address, isConnected, chain } = useAccount();
